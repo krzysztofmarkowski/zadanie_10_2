@@ -79,6 +79,10 @@ REM Utworzenie pliku startuj¹cego grunta
 del start-grunt.bat
 echo start grunt  >> start-grunt.bat
 REM -------------------------------
+REM Utworzenie pliku kompiluj¹cego sass
+del sass-watch.bat
+echo sass --watch input.sass:output.css >> sass-watch.bat
+REM -----------------------------------
 REM Instalacja Grunta
 call npm install -g grunt-cli
 REM -------------------------------
